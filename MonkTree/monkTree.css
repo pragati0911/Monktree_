@@ -1,0 +1,148 @@
+body{
+	background-image: url('images/Background.png');
+	background-size: cover;
+	
+}
+.marg{
+	margin-top: 50px;
+}
+.nav-link{
+	color: white;
+}
+h2{
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+p {
+	color: white;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cs {
+			padding-top: 15%;
+		}
+
+input[type="email"]
+{
+    background: transparent;
+    border-color: white;
+    color: white;
+   
+}
+.container ul li:hover{
+	color: yellow;
+} 
+
+.btn-cst{
+	       
+			background: white;
+			color: red;
+		}
+.pos
+{
+	position: absolute;
+	left:47%;
+	top: 89.4%;
+}
+
+.btn-transparent{
+		color: white;
+		opacity: 0.5;
+}
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+} 
+  
+input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: white; 
+} 
+  
+input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: white; 
+} 
+
+img{
+	 max-width:95%;
+  max-height:95%;
+}
+#container{
+	margin-top: 25%;
+	margin-bottom: 30%;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.block{
+    width: 50%;
+    height: auto;
+}
+#block1{
+    margin-top: 150px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.image-card{
+
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 10%;
+}
+.image-card p{
+    padding: 25px;
+}
+.image-card img{
+    width: 70%;
+    height: 70%;
+}
+.image-card:hover{
+    transform: scale(1.1);
+    color: black;
+    box-shadow:0px 0px 4px #198BF9 ;
+}
+#block2{
+   
+    margin-left: 50px;
+}
+#block2 h1{
+    color: #337CFF ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 2px #337FFF ;
+}
+#block2 p{
+    color: darkslategray;
+}
+#block1 p{
+    color: darkslategray;
+}
+.buttons{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+#bt:hover{
+    transform: scale(1.1);
+}
+.nav-link:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transform: scale(1.1);
+}
+
+.btn-cst:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.bg{
+    background-color: transparent;
+    opacity: 0.8;
+    color: white;
+}
